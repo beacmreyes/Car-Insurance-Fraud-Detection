@@ -1,1 +1,2 @@
 streamlit==0.68.1
+Flask
