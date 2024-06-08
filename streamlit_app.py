@@ -16,8 +16,6 @@ html_temp = """
 </div>
 """
 st.markdown(html_temp, unsafe_allow_html = True)
-import streamlit as st
-from datetime import datetime
 
 def main():
     st.markdown("<h2 style='text-align: center; color: #333;'>Policy Holder</h2>", unsafe_allow_html=True)
