@@ -3,14 +3,13 @@ import pickle
 import pandas as pd
 
 # model deployment
-from flask import Flask
 import streamlit as st
 from datetime import datetime
 
 # read model and holdout data
 model = pickle.load(open('lr_tk.pkl', 'rb'))
 
-st.title("Car Insurance Fraud Detection")
+
 html_temp = """
 <div style="background:#025246 ;padding:10px">
 <h2 style="color:white;text-align:center;"> Car Insurance Fraud Detection ML App </h2>
