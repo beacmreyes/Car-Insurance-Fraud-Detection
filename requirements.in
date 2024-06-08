@@ -1,2 +1,6 @@
 streamlit==0.68.1
-Flask
+streamlit
+pandas
+numpy
+scikit-learn
+imbalanced-learn
